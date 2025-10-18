@@ -37,4 +37,16 @@ print(d,e,f)
 # Co - 67 * 111 * 2
 # G - 71 * 71 * 71
 
-keresztnev = chr(input("Adja meg a keresztnevét: "))
+keresztnev = input("Add meg a keresztneved: ")
+
+if len(keresztnev) == 0:
+    print("Nincs név")
+
+if len(keresztnev) >= 3:
+        szorzat = ord(keresztnev[0]) * ord(keresztnev[1]) * ord(keresztnev[2])
+elif len(keresztnev) == 2:
+        szorzat = ord(keresztnev[0]) * ord(keresztnev[1]) * len(keresztnev)
+else:
+        szorzat = ord(keresztnev[0]) ** 3
+
+print("A generált jelszavad: " + str(szorzat))
