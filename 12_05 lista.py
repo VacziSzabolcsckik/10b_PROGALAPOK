@@ -1,3 +1,5 @@
+import random
+
 #a szövegben van-e sz betű
 szoveg = "palap"
 dube = "cs" #duplabetu
@@ -60,6 +62,11 @@ len(lista_neve)
 """
 
 szamok = [3,2,5,7,1]
+print(szamok)
+szamok.append(12)
+print(szamok)
+szamok.remove(3)
+print(szamok)
 print("Első elem:",szamok[0])
 print("Utolsó elem:", szamok[len(szamok)-1])
 #print("Utolsó elem:",szamok[-1])
