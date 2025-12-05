@@ -73,7 +73,7 @@ print("Utolsó elem:", szamok[len(szamok)-1])
 print("Lista hossza:",len(szamok))
 
 #házi feladat
-#tölts fel egy 13 elemű listát
+#tölts fel egy 13 elemű listát 0-20 közötti véletlen számmal
 #számok átlaga
 #hány darab páros szám van a listában
 #van-e benne nulla
