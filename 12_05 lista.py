@@ -1,3 +1,4 @@
+import math
 import random
 
 #a szövegben van-e sz betű
@@ -76,4 +77,21 @@ print("Lista hossza:",len(szamok))
 #tölts fel egy 13 elemű listát 0-20 közötti véletlen számmal
 #számok átlaga
 #hány darab páros szám van a listában
-#van-e benne nulla
+#van-e benne nulla?
+
+lista = []
+"""
+while lista != 13:
+    a = random.randint(0,20)
+    lista.append(a)
+print(lista)
+"""
+
+for index in range(0,13,1):
+    a = random.randint(0,20)
+    lista.append(a)
+print(lista)
+
+for index in range(0,len(lista),1)
+    osszeg += lista[index]
+print(osszeg)
